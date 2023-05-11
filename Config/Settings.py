@@ -49,9 +49,9 @@ class Dev(BaseSettings):
     DATABASE_TYPE = "mysql"
     DATABASE_CONNECT = "pymysql"
     DATABASE_NAME = "WebBackend"
-    DATABASE_USER_NAME = "web"
+    DATABASE_USER_NAME = "xxxx"
     DATABASE_USER_PASSWORD = "123456"
-    DATABASE_HOST = "101.132.135.180"
+    DATABASE_HOST = "IP"
     DATABASE_PORT = "3306"
     ENCODE_TYPE = "utf8"
     DATABASE_URL = "{}+{}://{}:{}@{}:{}/{}?charset={}".format(
